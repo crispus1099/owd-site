@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>MotorX | Motor Aksesuarları</title>
+
+  <!-- META / SEO -->
+  <meta name="description" content="MotorX – Motor aksesuarları satış sitesi. Kask, eldiven, egzoz ve daha fazlası.">
+  <meta name="keywords" content="motor aksesuarları, motosiklet, kask, egzoz">
+  <meta name="author" content="Ismail Abbasov">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- OG -->
+  <meta property="og:title" content="MotorX | Motor Aksesuarları">
+  <meta property="og:description" content="Motoruna güç kat. Sade ve güçlü tasarım.">
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:Arial, Helvetica, sans-serif; }
+    body { background:#0e0e0e; color:#fff; }
+
+    header {
+      background:#111;
+      padding:20px 40px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-bottom:2px solid #e10600;
+    }
+
+    header h1 { color:#e10600; letter-spacing:2px; }
+    nav a {
+      color:#fff;
+      text-decoration:none;
+      margin-left:20px;
+      font-weight:bold;
+    }
+    nav a:hover { color:#e10600; }
+
+    .hero {
+      height:70vh;
+      background:url("https://images.unsplash.com/photo-1503376780353-7e6692767b70") center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      padding:40px;
+    }
+
+    .hero-box {
+      background:rgba(0,0,0,0.6);
+      padding:30px;
+      border-left:5px solid #e10600;
+      max-width:500px;
+    }
+
+    .hero-box h2 { font-size:36px; margin-bottom:15px; }
+    .hero-box p { margin-bottom:20px; }
+
+    .btn {
+      background:#e10600;
+      padding:12px 22px;
+      color:#fff;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    .btn:hover { background:#ff1a1a; }
+
+    .products {
+      padding:60px 40px;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .products h3 {
+      text-align:center;
+      margin-bottom:40px;
+      color:#e10600;
+      font-size:28px;
+    }
+
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .product {
+      background:#181818;
+      padding:15px;
+      border:1px solid #2a2a2a;
+      text-align:center;
+    }
+
+    .product img {
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      margin-bottom:15px;
+    }
+
+    .product h4 { margin-bottom:10px; }
+    .price { color:#e10600; font-weight:bold; }
+
+    footer {
+      background:#111;
+      padding:20px;
+      text-align:center;
+      border-top:2px solid #e10600;
+      margin-top:40px;
+      font-size:14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MotorX</h1>
+  <nav>
+    <a href="#">Ana Sayfa</a>
+    <a href="#">Ürünler</a>
+    <a href="#">İletişim</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-box">
+    <h2>Motoruna Güç Kat</h2>
+    <p>En iyi motor aksesuarları tek adreste.</p>
+    <a href="#" class="btn">Alışverişe Başla</a>
+  </div>
+</section>
+
+<section class="products">
+  <h3>Öne Çıkan Ürünler</h3>
+  <div class="grid">
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65">
+      <h4>Full Face Kask</h4>
+      <div class="price">₺2.499</div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1583225214464-9296029427aa">
+      <h4>Motor Eldiveni</h4>
+      <div class="price">₺799</div>
+    </div>
+
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1617814076231-23f5aaecf66f">
+      <h4>Performans Egzoz</h4>
+      <div class="price">₺4.200</div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 MotorX | Tüm Hakları Saklıdır
+</footer>
+
+</body>
+</html>
