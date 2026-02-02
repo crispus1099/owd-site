@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FMB Health Global</title>
+  <style>
+    /* Basit stil düzeni */
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #fff; padding: 15px 30px; box-shadow: 0 1px 5px rgba(0,0,0,0.1); position: fixed; width: 100%; top: 0; z-index: 100; }
+    nav a { margin-right: 20px; text-decoration: none; color: #333; font-weight: bold; }
+    section { padding: 80px 30px; }
+    .hero { text-align: center; background: #f5f5f5; padding: 120px 30px; }
+    .services { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .service-card { width: 260px; padding: 15px; border: 1px solid #ddd; border-radius: 8px; text-align: center; }
+    footer { text-align: center; padding: 20px; background: #222; color: #fff; margin-top: 50px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ccc; border-radius: 4px; }
+    form button { padding: 10px 20px; background: #0078ff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <a href="#home">Anasayfa</a>
+      <a href="#about">Hakkımızda</a>
+      <a href="#services">Hizmetler</a>
+      <a href="#contact">İletişim</a>
+    </nav>
+  </header>
+
+  <!-- HERO / ANA BANNER -->
+  <section id="home" class="hero">
+    <h1>FMB ile Sağlıkta Yenilik</h1>
+    <p>Modern tıp ve konforu bir arada yaşayın</p>
+    <a href="#contact"><button>İletişime Geç</button></a>
+  </section>
+
+  <!-- HAKKIMIZDA -->
+  <section id="about">
+    <h2>Hakkımızda</h2>
+    <p>FMB Health Global olarak sağlık turizmi alanında uzman doktorlarla kapsamlı çözümler sunuyoruz. Konfor, güven ve kalite odaklı hizmet anlayışımızla huzurlu bir deneyim hedefliyoruz.</p>
+  </section>
+
+  <!-- HİZMETLER -->
+  <section id="services">
+    <h2>Hizmetlerimiz</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Tedavi</h3>
+        <p>Uzman doktorlarla kişiye özel tedavi planları.</p>
+      </div>
+      <div class="service-card">
+        <h3>Konaklama</h3>
+        <p>Konforlu ve şık sağlık turizmi konaklama seçenekleri.</p>
+      </div>
+      <div class="service-card">
+        <h3>Destek / Transfer</h3>
+        <p>Havalimanı ve hastane arası güvenli transfer hizmeti.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- İLETİŞİM -->
+  <section id="contact">
+    <h2>İletişim</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+      <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+      <textarea name="message" rows="4" placeholder="Mesajınız..." required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+    <p>Telefon: +</p>
+  </section>
+
+  <footer>
+    &copy; 2026 Omega Wolf Dawgs. Tüm hakları saklıdır.
+  </footer>
+
+</body>
+</html>
